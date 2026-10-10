@@ -16,7 +16,9 @@
 
 ![AURORA Player 正在播放界面（示例）](images/01-player.png)
 
-**当前版本：2.1.0 · Windows 64 位 · 原生编译保护版。** 下载后直接运行，无需安装 Python。
+**当前版本：2.1.1 · Windows 64 位 · 原生编译保护版。** 下载后直接运行，无需安装 Python。
+
+**本次更新：** 补齐桌面中英文界面，修正动态提示、歌曲简介和更多菜单的漏翻。切换语言时，歌名、歌手、专辑、歌词和公开简介保持原文，播放继续。正式版已接入爱发电购买；旧内测包显示购买入口未开放时，请重新下载本页的正式版。
 
 AURORA 为同时在意**界面、功能与音质**的你设计。把电脑和 NAS 中的音乐收藏放进同一个曲库，以封面、歌词、频谱和 VU 表呈现音乐，再用听歌偏爱学习与声音调整，让找歌、看界面和听音乐成为连贯的体验。
 
@@ -56,14 +58,16 @@ AURORA 为同时在意**界面、功能与音质**的你设计。把电脑和 NA
 | 下载 | 说明 |
 | :--- | :--- |
 | [Windows 64 位 EXE](https://github.com/Howard9088/AURORA_Player/releases/latest/download/AURORA_Player.exe) | 单文件正式版，下载后运行。 |
-| [Windows 64 位 ZIP](https://github.com/Howard9088/AURORA_Player/releases/latest/download/AURORA_Player_NativeProtected_v2.1.0_Windows_x64.zip) | 包含程序、使用说明和校验信息，解压后运行。 |
+| [Windows 64 位 ZIP](https://github.com/Howard9088/AURORA_Player/releases/latest/download/AURORA_Player_NativeProtected_v2.1.1_Windows_x64.zip) | 包含程序、使用说明和校验信息，解压后运行。 |
 | [SHA256 校验文件](https://github.com/Howard9088/AURORA_Player/releases/latest/download/SHA256.txt) | 核对下载文件完整性。 |
 
 1. 下载并打开 `AURORA_Player.exe`。
 2. 在「音乐库」添加文件 / 文件夹，或在「本地 / NAS」选择共享音乐目录。
 3. 双击歌曲开始播放；在「设置」调整语言、歌词 / 封面匹配和曲库维护选项。
 
-NAS 目录需先能在 Windows 文件资源管理器中访问。当前下载包为 Windows 桌面版，不包含 NAS 网页服务或手机安装包。播放本地音乐不要求联网；在线资料、电台和全功能授权核验需要联网。
+本地播放器可在「设置」切换中英文界面，语言选择会被记住；音乐内容保持原文。电台目录、搜索和历史收藏已过滤香港电台。
+
+当前发布为 Windows 本地播放器，可读取文件资源管理器中能访问的 NAS 共享音乐目录。播放本地音乐不要求联网；在线资料、电台和全功能授权核验需要联网。
 
 ## 免费版与全功能版
 
