@@ -16,9 +16,9 @@
 
 ![AURORA Player 正在播放界面（示例）](images/01-player.png)
 
-**当前版本：2.1.1 · Windows 64 位 · 原生编译保护版。** 下载后直接运行，无需安装 Python。
+**当前版本：2.1.2 · Windows 64 位 · 原生编译保护版。** 下载后直接运行，无需安装 Python。
 
-**本次更新：** 补齐桌面中英文界面，修正动态提示、歌曲简介和更多菜单的漏翻。切换语言时，歌名、歌手、专辑、歌词和公开简介保持原文，播放继续。正式版已接入爱发电购买；旧内测包显示购买入口未开放时，请重新下载本页的正式版。
+**本次更新：** 界面换用寒蝉全圆体 v3.200，提供原生常规与粗体字重，计时数字宽度稳定。新字体采用 SIL OFL 1.1，允许商用及随软件分发，许可原文可在「设置 → 为爱发电 → 字体许可」查看。全功能免费试用调整为 7 天，到期后继续使用基本版；需要全功能可付费解锁。增加「设置 → 意见反馈」窗口，填写后自动打开邮件草稿并填写收件人；请在邮件程序中确认发送。中英文界面、原生编译保护及现有购买授权功能继续保留。
 
 AURORA 为同时在意**界面、功能与音质**的你设计。把电脑和 NAS 中的音乐收藏放进同一个曲库，以封面、歌词、频谱和 VU 表呈现音乐，再用听歌偏爱学习与声音调整，让找歌、看界面和听音乐成为连贯的体验。
 
@@ -58,7 +58,7 @@ AURORA 为同时在意**界面、功能与音质**的你设计。把电脑和 NA
 | 下载 | 说明 |
 | :--- | :--- |
 | [Windows 64 位 EXE](https://github.com/Howard9088/AURORA_Player/releases/latest/download/AURORA_Player.exe) | 单文件正式版，下载后运行。 |
-| [Windows 64 位 ZIP](https://github.com/Howard9088/AURORA_Player/releases/latest/download/AURORA_Player_NativeProtected_v2.1.1_Windows_x64.zip) | 包含程序、使用说明和校验信息，解压后运行。 |
+| [Windows 64 位 ZIP](https://github.com/Howard9088/AURORA_Player/releases/latest/download/AURORA_Player_NativeProtected_v2.1.2_Windows_x64.zip) | 包含程序、使用说明和校验信息，解压后运行。 |
 | [SHA256 校验文件](https://github.com/Howard9088/AURORA_Player/releases/latest/download/SHA256.txt) | 核对下载文件完整性。 |
 
 1. 下载并打开 `AURORA_Player.exe`。
@@ -81,7 +81,7 @@ AURORA 为同时在意**界面、功能与音质**的你设计。把电脑和 NA
 | AI 懂我：行为学习、智能推荐、文件夹推荐 | — | ✓ |
 | 标签补齐、面板材质及灯光等高级设置 | — | ✓ |
 
-首次使用可试用全功能 **30 天**。试用或付费授权到期后，继续使用免费功能，保留曲库、收藏和学习数据。
+首次使用可试用全功能 **7 天**。已有试用记录沿用原始开始时间，按 7 天计算；升级或重启不会重新起算。试用或付费授权到期后，继续使用免费功能，保留曲库、收藏和学习数据。
 
 | 全功能授权 | 价格与期限 | 购买入口 |
 | :--- | :--- | :--- |
@@ -395,8 +395,10 @@ AURORA 为同时在意**界面、功能与音质**的你设计。把电脑和 NA
 
 **下载页里的 Source code 是播放器源码吗？** 不是。GitHub 自动生成的源码压缩包只包含此公开介绍仓库的文档和图片。运行程序请下载 EXE 或 Windows ZIP。
 
-问题反馈请提交 [GitHub Issue](https://github.com/Howard9088/AURORA_Player/issues)，附上版本、出现问题的界面和复现步骤；购买或订单问题可通过对应爱发电商品联系作者。反馈时请勿公开激活码或个人凭据。
+可在软件「设置 → 意见反馈」填写建议，点击「发送反馈」后在默认邮件程序中确认发送；软件不显示作者邮箱。也可提交 [GitHub Issue](https://github.com/Howard9088/AURORA_Player/issues)，附上版本、出现问题的界面和复现步骤；购买或订单问题可通过对应爱发电商品联系作者。反馈时请勿公开激活码或个人凭据。
 
 [版本说明](RELEASE_NOTES.md) · [软件许可](SOFTWARE_LICENSE.md)
 
 © 2026 AURORA_Player
+
+界面字体：寒蝉全圆体 v3.200，使用未经修改的原始字体。字体单独遵循 [SIL OFL 1.1](FONT_LICENSE.txt)，软件继续采用闭源共享软件许可。
