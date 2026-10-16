@@ -16,9 +16,9 @@
 
 ![AURORA Player 正在播放界面（示例）](images/01-player.png)
 
-**当前版本：2.1.3 · Windows 64 位 · 原生编译保护版。** 下载后直接运行，无需安装 Python。
+**当前版本：2.1.24 · Windows 64 位 · 原生编译保护版。** 下载后安装，无需安装 Python。
 
-**本次更新：** 移除文件夹时同步清理专辑等曲库记录；CD 默认按碟号、曲号与 CUE 顺序播放。修复 CUE 播放进度越界及换曲后旧进度干扰，增加拖动排序并自动保存、播放或暂停标志、目录内自动定位，以及可点击的上一首/当前歌曲/下一首；播放条右侧按歌词样式滚动三行歌名。正式版和内测版统一采用寒蝉全圆体。全功能免费试用 7 天，到期后继续使用基本版；付费全功能为 10 元 / 30 天或 98 元买断。
+**本次更新：** 推荐算法更新至 `unified-brain-20261016.11`。历史播放前 5 首、近 3 天播放前 5 首（跳过历史已选歌曲）及最近点心的 10 首合并参与分析；保护有效正向种子，减少证据较少的风格组和连续同方向推荐的影响。「听歌风格」显示真实播放次数、封面与点心歌曲。提供正式安装包，升级保留个人曲库与记录。全功能免费试用 7 天，到期后继续使用基本版；付费全功能为 10 元 / 30 天或 98 元买断。
 
 AURORA 为同时在意**界面、功能与音质**的你设计。把电脑和 NAS 中的音乐收藏放进同一个曲库，以封面、歌词、频谱和 VU 表呈现音乐，再用听歌偏爱学习与声音调整，让找歌、看界面和听音乐成为连贯的体验。
 
@@ -57,11 +57,11 @@ AURORA 为同时在意**界面、功能与音质**的你设计。把电脑和 NA
 
 | 下载 | 说明 |
 | :--- | :--- |
-| [Windows 64 位 EXE](https://github.com/Howard9088/AURORA_Player/releases/latest/download/AURORA_Player.exe) | 单文件正式版，下载后运行。 |
-| [Windows 64 位 ZIP](https://github.com/Howard9088/AURORA_Player/releases/latest/download/AURORA_Player_NativeProtected_v2.1.3_Windows_x64.zip) | 包含程序、使用说明和校验信息，解压后运行。 |
+| [Windows 64 位安装包](https://github.com/Howard9088/AURORA_Player/releases/latest/download/AURORA_Player.exe) | 运行安装程序，通过开始菜单启动正式版。 |
+| [带版本号的安装包](https://github.com/Howard9088/AURORA_Player/releases/latest/download/AURORA_Player_Setup_2.1.24.exe) | 与上方安装包内容相同，便于保存版本。 |
 | [SHA256 校验文件](https://github.com/Howard9088/AURORA_Player/releases/latest/download/SHA256.txt) | 核对下载文件完整性。 |
 
-1. 下载并打开 `AURORA_Player.exe`。
+1. 下载并运行 `AURORA_Player.exe` 安装程序，再从开始菜单打开「AURORA Player」。
 2. 在「音乐库」添加文件 / 文件夹，或在「本地 / NAS」选择共享音乐目录。
 3. 双击歌曲开始播放；在「设置」调整语言、歌词 / 封面匹配和曲库维护选项。
 
